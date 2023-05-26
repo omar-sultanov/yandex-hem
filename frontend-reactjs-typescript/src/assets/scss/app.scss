@@ -1,0 +1,259 @@
+.header {
+  background-color: #4db6ac;
+  height: 60px;
+  color: white;
+  font-size: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Nunito';
+  font-size: 700;
+
+  .homeIcon {
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+  }
+}
+.Icon {
+  margin-right: 3px;
+}
+.Scenari {
+  margin: 20px auto;
+  width: 70%;
+  font-family: 'Nunito';
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  a {
+    color: #d50000;
+    font-weight: bold;
+    padding-top: 10px;
+  }
+  .back-button {
+    border: solid 1px #424242;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: #424242;
+    font-family: 'Nunito';
+    font-weight: bold;
+    cursor: pointer;
+    &:hover {
+      color: white;
+      background-color: #424242;
+    }
+  }
+  .scenari-btns {
+    display: flex;
+    margin: 20px auto 20px auto;
+    font-family: 'Nunito';
+
+    .scenari-button {
+      padding: 10px 15px;
+      margin-left: 20px;
+      border: solid 1px #d50000;
+      background-color: #d50000;
+      color: white;
+      font-weight: bold;
+      font-family: 'Nunito';
+      font-size: 16px;
+      border-radius: 22px;
+      cursor: pointer;
+      &:active {
+        background-color: white;
+        color: #d50000;
+      }
+      .Icon {
+        margin-right: 3px;
+      }
+    }
+  }
+}
+.chart-container {
+  width: 800px;
+  margin: 10px auto;
+}
+.ChartPower {
+  font-family: 'Nunito';
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  #back-button {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #424242;
+    padding: 10px 15px;
+    background-color: transparent;
+    color: #424242;
+    font-family: 'Nunito';
+    font-weight: bold;
+    cursor: pointer;
+  }
+}
+.About {
+  width: 50%;
+  margin: 20px auto;
+  font-family: 'Nunito';
+  padding: 20px;
+  h1 {
+    text-align: center;
+  }
+
+  .about_btns {
+    display: flex;
+    justify-content: center;
+
+    #scenari-button {
+      background-color: #3d5afe;
+      border: solid 2px #3d5afe;
+      padding: 10px;
+      margin-top: 30px;
+      margin-left: 40px;
+
+      a {
+        font-family: 'Nunito';
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+      }
+    }
+
+    #scenari-button:active {
+      background-color: white;
+      a {
+        color: #3d5afe;
+      }
+    }
+    #history-button {
+      background-color: transparent;
+      border: solid 2px #424242;
+      padding: 10px;
+      margin-top: 30px;
+      margin-left: 40px;
+      font-family: 'Nunito';
+      a {
+        text-decoration: none;
+        color: #424242;
+        font-size: 16px;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .Info {
+    display: flex;
+
+    .info_device {
+      ul {
+        font-size: 17px;
+      }
+      p {
+        margin-left: 18px;
+        width: 500px;
+      }
+      b {
+        margin-left: 18px;
+        a {
+          color: #ff3d00;
+        }
+      }
+    }
+    .device_img {
+      width: 200px;
+      img {
+        width: 100%;
+      }
+    }
+  }
+}
+.Home {
+  width: 80%;
+  margin: 30px auto;
+  display: flex;
+
+  justify-content: baseline;
+  flex-wrap: wrap;
+
+  .Item {
+    margin: 10px;
+    width: 380px;
+    border: solid #0097a7 2px;
+    box-shadow: 1px 1px 4px 1px #4dd0e1;
+    border-radius: 4px;
+    height: 170px;
+    font-family: 'Nunito';
+    display: flex;
+    img {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+    }
+
+    .Item_paramters {
+      line-height: 0;
+
+      .btn_group {
+        width: 120px;
+        display: flex;
+        justify-content: space-between;
+        button {
+          height: 30px;
+          width: 70px;
+          font-family: 'Nunito';
+          font-weight: 700;
+        }
+        .AboutIcon {
+          color: #14a44d;
+          font-size: 28px;
+        }
+      }
+      h2 {
+        font-size: bold;
+      }
+      .Item_body {
+        height: max-content;
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          height: max-content;
+          padding: 0;
+          li {
+            display: flex;
+            justify-content: baseline;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            list-style: none;
+            width: max-content;
+            height: 100%;
+            margin-left: 0;
+
+            span {
+              margin-left: 10px;
+            }
+            b {
+              width: 50px;
+            }
+          }
+        }
+      }
+      .Toggle_btn {
+        border: none;
+        background-color: #ff5722;
+        color: white;
+      }
+      .Toggle_btn_click {
+        border: solid #ff5722 1px;
+
+        background-color: white;
+
+        color: #ff5722;
+      }
+    }
+  }
+}
+body {
+  margin: 0 0;
+}

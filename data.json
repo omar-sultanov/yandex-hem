@@ -1,0 +1,203 @@
+{"devices":[
+  {
+    "_id": { "$oid": "64653ece68b453e1651b4119" },
+    "img": "https://yastatic.net/s3/doc-binary/freeze/sfh5ZC37qml_4cCcFdHnek-9G4A.png",
+    "status": "ok",
+    "request_id": "1cd02288-3b5e-498f-8a2a-cfd22fcb3a3d",
+    "id": "0a91acde-1886-45c8-9aa2-74ceeef71018",
+    "name": "Телевизор",
+    "aliases": [],
+    "type": "devices.types.socket",
+    "external_id": "bf1cce4e9475e7dffcqocj",
+    "skill_id": "T",
+    "state": "online",
+    "groups": [],
+    "room": "f8090e51-d227-4cfc-b5fc-d265540cea25",
+    "capabilities": [
+      {
+        "retrievable": true,
+        "type": "devices.capabilities.on_off",
+        "parameters": { "split": false },
+        "state": { "instance": "on", "value": false },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      }
+    ],
+    "properties": [
+      {
+        "retrievable": true,
+        "type": "devices.properties.float",
+        "parameters": { "instance": "voltage", "unit": "unit.volt" },
+        "state": {
+          "instance": "voltage",
+          "value": { "$numberDouble": "218.60000000000002" }
+        },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      },
+      {
+        "retrievable": true,
+        "type": "devices.properties.float",
+        "parameters": { "instance": "power", "unit": "unit.watt" },
+        "state": { "instance": "power", "value": { "$numberInt": "0" } },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      },
+      {
+        "retrievable": true,
+        "type": "devices.properties.float",
+        "parameters": { "instance": "amperage", "unit": "unit.ampere" },
+        "state": { "instance": "amperage", "value": { "$numberInt": "0" } },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "64653ece68b453e1651b411a" },
+    "img": "https://yastatic.net/s3/doc-binary/freeze/2hn65UqNF5ZEVeZi7Wy5Zm3c9cU.png",
+    "status": "ok",
+    "request_id": "1cd02288-3b5e-498f-8a2a-cfd22fcb3a3d",
+    "id": "0a91acde-1886-45c8-9aa2-74ceeef71018",
+    "name": "Лампочка",
+    "aliases": [],
+    "type": "devices.types.socket",
+    "external_id": "bf1cce4e9475e7dffcqocj",
+    "skill_id": "T",
+    "state": "online",
+    "groups": [],
+    "room": "f8090e51-d227-4cfc-b5fc-d265540cea25",
+    "capabilities": [
+      {
+        "retrievable": true,
+        "type": "devices.capabilities.on_off",
+        "parameters": { "split": false },
+        "state": { "instance": "on", "value": false },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      }
+    ],
+    "properties": [
+      {
+        "retrievable": true,
+        "type": "devices.properties.float",
+        "parameters": { "instance": "voltage", "unit": "unit.volt" },
+        "state": {
+          "instance": "voltage",
+          "value": { "$numberDouble": "218.60000000000002" }
+        },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      },
+      {
+        "retrievable": true,
+        "type": "devices.properties.float",
+        "parameters": { "instance": "power", "unit": "unit.watt" },
+        "state": { "instance": "power", "value": { "$numberInt": "0" } },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      },
+      {
+        "retrievable": true,
+        "type": "devices.properties.float",
+        "parameters": { "instance": "amperage", "unit": "unit.ampere" },
+        "state": { "instance": "amperage", "value": { "$numberInt": "0" } },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "64653ece68b453e1651b411b" },
+    "img": "https://avatars.mds.yandex.net/get-mpic/4120567/img_id2041176086083780386.png/orig",
+    "status": "ok",
+    "request_id": "1cd02288-3b5e-498f-8a2a-cfd22fcb3a3d",
+    "id": "0a91acde-1886-45c8-9aa2-74ceeef71018",
+    "name": "Выключатель",
+    "aliases": [],
+    "type": "devices.types.socket",
+    "external_id": "bf1cce4e9475e7dffcqocj",
+    "skill_id": "T",
+    "state": "online",
+    "groups": [],
+    "room": "f8090e51-d227-4cfc-b5fc-d265540cea25",
+    "capabilities": [
+      {
+        "retrievable": true,
+        "type": "devices.capabilities.on_off",
+        "parameters": { "split": false },
+        "state": { "instance": "on", "value": false },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      }
+    ],
+    "properties": [
+      {
+        "retrievable": true,
+        "type": "devices.properties.float",
+        "parameters": { "instance": "voltage", "unit": "unit.volt" },
+        "state": {
+          "instance": "voltage",
+          "value": { "$numberDouble": "218.60000000000002" }
+        },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      },
+      {
+        "retrievable": true,
+        "type": "devices.properties.float",
+        "parameters": { "instance": "power", "unit": "unit.watt" },
+        "state": { "instance": "power", "value": { "$numberInt": "0" } },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      },
+      {
+        "retrievable": true,
+        "type": "devices.properties.float",
+        "parameters": { "instance": "amperage", "unit": "unit.ampere" },
+        "state": { "instance": "amperage", "value": { "$numberInt": "0" } },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      }
+    ]
+  },
+  {
+    "_id": { "$oid": "64653ece68b453e1651b411c" },
+    "img": "https://cdn1.technopark.ru/technopark/photos_resized/product/1000_1000/609742/1_609742.jpg",
+    "status": "ok",
+    "request_id": "1cd02288-3b5e-498f-8a2a-cfd22fcb3a3d",
+    "id": "0a91acde-1886-45c8-9aa2-74ceeef71018",
+    "name": "Стиральная машина",
+    "aliases": [],
+    "type": "devices.types.socket",
+    "external_id": "bf1cce4e9475e7dffcqocj",
+    "skill_id": "T",
+    "state": "online",
+    "groups": [],
+    "room": "f8090e51-d227-4cfc-b5fc-d265540cea25",
+    "capabilities": [
+      {
+        "retrievable": true,
+        "type": "devices.capabilities.on_off",
+        "parameters": { "split": false },
+        "state": { "instance": "on", "value": false },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      }
+    ],
+    "properties": [
+      {
+        "retrievable": true,
+        "type": "devices.properties.float",
+        "parameters": { "instance": "voltage", "unit": "unit.volt" },
+        "state": {
+          "instance": "voltage",
+          "value": { "$numberDouble": "218.60000000000002" }
+        },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      },
+      {
+        "retrievable": true,
+        "type": "devices.properties.float",
+        "parameters": { "instance": "power", "unit": "unit.watt" },
+        "state": { "instance": "power", "value": { "$numberInt": "1600" } },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      },
+      {
+        "retrievable": true,
+        "type": "devices.properties.float",
+        "parameters": { "instance": "amperage", "unit": "unit.ampere" },
+        "state": { "instance": "amperage", "value": { "$numberInt": "10" } },
+        "last_updated": { "$numberDouble": "1684349925.9461913" }
+      }
+    ]
+  }
+]
+}

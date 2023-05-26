@@ -1,0 +1,7 @@
+omar.sultanov.98@gmail.com
+TqAqC8mpaufksULM
+omarsultanov98
+
+mongodb+srv://omarsultanov98:<password>@cluster0.25clljj.mongodb.net/?retryWrites=true&w=majority
+
+mongodb+srv://omarsultanov98:<password>@cluster0.25clljj.mongodb.net/
